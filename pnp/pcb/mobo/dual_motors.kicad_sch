@@ -6,8 +6,10 @@
 
   (title_block
     (title "LumenPnP Motherboard")
-    (date "2022-03-29")
+    (date "2022-09-09")
+    (rev "004A")
     (company "Opulo")
+    (comment 1 "Reengineered by Magpie")
   )
 
   (lib_symbols
@@ -1492,7 +1494,7 @@
     (uuid f6c6b658-1bf6-4c26-b6a1-d4c107527951)
   )
 
-  (symbol (lib_id "power:+3V3") (at 80.645 85.09 0)
+  (symbol (lib_id "power:+3V3") (at 80.645 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057eb83)
     (property "Reference" "#PWR066" (id 0) (at 80.645 88.9 0)
@@ -1508,7 +1510,7 @@
     (pin "1" (uuid e847f05e-7f79-4bb7-9b78-0fd6212213b4))
   )
 
-  (symbol (lib_id "power:GND") (at 83.185 128.27 0)
+  (symbol (lib_id "power:GND") (at 83.185 128.27 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057eb89)
     (property "Reference" "#PWR067" (id 0) (at 83.185 134.62 0)
@@ -1524,7 +1526,7 @@
     (pin "1" (uuid 132ccab2-d809-4e0c-bc8f-f833a27186ab))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 69.215 97.79 90)
+  (symbol (lib_id "power:+3.3V") (at 69.215 97.79 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057eb92)
     (property "Reference" "#PWR065" (id 0) (at 73.025 97.79 0)
@@ -1542,7 +1544,7 @@
     (pin "1" (uuid 3cec1242-fefd-45f9-be37-dfaa3b57a7d8))
   )
 
-  (symbol (lib_id "Motor:Stepper_Motor_bipolar") (at 144.145 172.72 0)
+  (symbol (lib_id "Motor:Stepper_Motor_bipolar") (at 144.145 172.72 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057ebf8)
     (property "Reference" "M6" (id 0) (at 147.955 171.45 0)
@@ -1572,7 +1574,7 @@
     (pin "4" (uuid 051e53f2-4ee0-484a-a42d-89676b2f7f1c))
   )
 
-  (symbol (lib_id "Motor:Stepper_Motor_bipolar") (at 144.145 157.48 0)
+  (symbol (lib_id "Motor:Stepper_Motor_bipolar") (at 144.145 157.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057ec01)
     (property "Reference" "M5" (id 0) (at 147.955 156.21 0)
@@ -1602,7 +1604,7 @@
     (pin "4" (uuid ca98e15e-0970-492b-8cea-7ef12dec3454))
   )
 
-  (symbol (lib_id "Driver_Motor:Pololu_Breakout_A4988") (at 80.645 105.41 0)
+  (symbol (lib_id "Driver_Motor:Pololu_Breakout_A4988") (at 80.645 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057ec07)
     (property "Reference" "A5" (id 0) (at 74.295 125.095 0))
@@ -1631,7 +1633,7 @@
     (pin "9" (uuid dce41efe-78e6-456f-a816-a4ebea13917d))
   )
 
-  (symbol (lib_id "power:VDC") (at 85.725 85.09 0)
+  (symbol (lib_id "power:VDC") (at 85.725 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057ec0d)
     (property "Reference" "#PWR068" (id 0) (at 85.725 87.63 0)
@@ -1647,7 +1649,7 @@
     (pin "1" (uuid 635fae87-e9e1-48c3-b824-13f59b5c112f))
   )
 
-  (symbol (lib_id "Device:C_Polarized_Small") (at 89.535 86.36 90)
+  (symbol (lib_id "Device:C_Polarized_Small") (at 89.535 86.36 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057ec1b)
     (property "Reference" "C21" (id 0) (at 93.345 81.28 90)
@@ -1678,7 +1680,7 @@
     (pin "2" (uuid 7a669782-db41-4a8c-a4d2-0d53d6589a7e))
   )
 
-  (symbol (lib_id "power:GND") (at 93.345 86.36 90)
+  (symbol (lib_id "power:GND") (at 93.345 86.36 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006057ec27)
     (property "Reference" "#PWR072" (id 0) (at 99.695 86.36 0)
@@ -1694,7 +1696,7 @@
     (pin "1" (uuid 47b7b707-9902-4781-b768-f49ba920b70f))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 215.9 105.41 0)
+  (symbol (lib_id "power:+3.3V") (at 215.9 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006073a485)
     (property "Reference" "#PWR070" (id 0) (at 215.9 109.22 0)
@@ -1710,7 +1712,7 @@
     (pin "1" (uuid 492366ac-2207-4260-b444-2698d1402f11))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 189.23 83.82 0)
+  (symbol (lib_id "power:+3.3V") (at 189.23 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006073a48b)
     (property "Reference" "#PWR063" (id 0) (at 189.23 87.63 0)
@@ -1726,7 +1728,7 @@
     (pin "1" (uuid 93f10a02-5876-45ee-9803-0b386867022d))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 215.9 83.82 0)
+  (symbol (lib_id "power:+3.3V") (at 215.9 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006073a491)
     (property "Reference" "#PWR069" (id 0) (at 215.9 87.63 0)
@@ -1742,7 +1744,7 @@
     (pin "1" (uuid 70d8ca3a-7b30-4e1a-bc62-a528c4a51502))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 189.23 105.41 0)
+  (symbol (lib_id "power:+3.3V") (at 189.23 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006073a497)
     (property "Reference" "#PWR064" (id 0) (at 189.23 109.22 0)
@@ -1758,7 +1760,7 @@
     (pin "1" (uuid 42b54742-a6e0-4398-9f3d-f0a231cce2ed))
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 189.23 90.17 270)
+  (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 189.23 90.17 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006073a4b7)
     (property "Reference" "JP17" (id 0) (at 190.9572 89.0016 90)
@@ -1778,7 +1780,7 @@
     (pin "3" (uuid 6bf24e7e-6a9f-4020-90ab-2b4310e5c791))
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 215.9 90.17 270)
+  (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 215.9 90.17 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006073a4c9)
     (property "Reference" "JP19" (id 0) (at 217.6272 89.0016 90)
@@ -1798,7 +1800,7 @@
     (pin "3" (uuid f1245e01-063d-4b9f-accc-bd38e278a91d))
   )
 
-  (symbol (lib_id "Device:R_Small") (at 66.675 118.11 270)
+  (symbol (lib_id "Device:R_Small") (at 66.675 118.11 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061048871)
     (property "Reference" "R10" (id 0) (at 66.675 120.65 90))
@@ -1825,7 +1827,7 @@
     (pin "2" (uuid 7f0333a9-0914-46f9-8c06-be2795ee5675))
   )
 
-  (symbol (lib_id "index:SolderJumper_3_Bridged23") (at 189.23 111.76 270) (mirror x)
+  (symbol (lib_id "index:SolderJumper_3_Bridged23") (at 189.23 111.76 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006105ae36)
     (property "Reference" "JP18" (id 0) (at 190.9572 110.5916 90)
@@ -1845,7 +1847,7 @@
     (pin "3" (uuid 30fc2138-6085-4e77-8ed0-df2ef705cf59))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 210.82 88.9 0)
+  (symbol (lib_id "power:PWR_FLAG") (at 210.82 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 05b1c254-df16-4a53-b734-535b87604fc2)
     (property "Reference" "#FLG06" (id 0) (at 210.82 86.995 0)
@@ -1861,7 +1863,7 @@
     (pin "1" (uuid 37c2d3ed-66db-4e89-becd-1429a7551b84))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 184.15 88.9 0)
+  (symbol (lib_id "power:PWR_FLAG") (at 184.15 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1b7500dc-4ea5-49e6-88d8-1150cf667f5e)
     (property "Reference" "#FLG05" (id 0) (at 184.15 86.995 0)
@@ -1877,7 +1879,7 @@
     (pin "1" (uuid 1dd0f479-a454-4be9-9d04-fe70b4046960))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 128.27 93.98 90)
+  (symbol (lib_id "Device:C_Small") (at 128.27 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 28b6129f-bd8f-41b9-b74d-51e8743e4ae5)
     (property "Reference" "C59" (id 0) (at 130.81 95.885 90))
@@ -1892,7 +1894,7 @@
     (pin "2" (uuid d0fa2f13-6ee8-4b42-99f4-b44c9391b5e7))
   )
 
-  (symbol (lib_id "Device:L_Ferrite") (at 118.11 122.555 90)
+  (symbol (lib_id "Device:L_Ferrite") (at 118.11 122.555 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2b6814f9-01dd-4e5e-9d08-3044c99b23cb)
     (property "Reference" "L25" (id 0) (at 118.11 117.1915 90))
@@ -1907,7 +1909,7 @@
     (pin "2" (uuid 81ee17af-9f1b-471d-b4ed-50bcfbdade95))
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Female") (at 194.31 135.89 180)
+  (symbol (lib_id "Connector:Conn_01x02_Female") (at 194.31 135.89 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2c430271-6bce-4399-bdaa-3b266ce6fdae)
     (property "Reference" "J30" (id 0) (at 194.945 128.9263 0))
@@ -1922,7 +1924,7 @@
     (pin "2" (uuid d2ee6bd8-4eac-4b66-95a7-e9545f0e4418))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 128.27 113.665 90)
+  (symbol (lib_id "Device:C_Small") (at 128.27 113.665 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3ba45f98-412f-4787-8a30-5bae6699e7ce)
     (property "Reference" "C61" (id 0) (at 130.81 115.57 90))
@@ -1937,7 +1939,7 @@
     (pin "2" (uuid 4d65f1e6-ac22-4877-a0e1-ff49c527658d))
   )
 
-  (symbol (lib_id "Device:L_Ferrite") (at 118.11 102.235 90)
+  (symbol (lib_id "Device:L_Ferrite") (at 118.11 102.235 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 657f2d30-22e2-4525-bc5b-390de6628a95)
     (property "Reference" "L23" (id 0) (at 118.11 96.8715 90))
@@ -1952,7 +1954,7 @@
     (pin "2" (uuid 3e6bdcde-28c5-4def-b047-861564e3b343))
   )
 
-  (symbol (lib_id "Device:L_Ferrite") (at 118.11 91.44 90)
+  (symbol (lib_id "Device:L_Ferrite") (at 118.11 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9f0a8246-f5fd-4561-9bc2-468625fa4b34)
     (property "Reference" "L22" (id 0) (at 118.11 86.0765 90))
@@ -1967,7 +1969,7 @@
     (pin "2" (uuid 2efab0c1-0624-49bd-907b-c843617244de))
   )
 
-  (symbol (lib_id "Device:L_Ferrite") (at 118.11 110.49 90)
+  (symbol (lib_id "Device:L_Ferrite") (at 118.11 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a1ead373-782a-4b4e-b7eb-09cc8fb3b9f3)
     (property "Reference" "L24" (id 0) (at 118.11 105.1265 90))
@@ -1982,7 +1984,7 @@
     (pin "2" (uuid 1e5d0ddf-7e24-488b-a5c9-02ecda99f37a))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 128.27 119.38 90)
+  (symbol (lib_id "Device:C_Small") (at 128.27 119.38 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid afc25d94-ced4-4b84-9d84-71ff6fa6b401)
     (property "Reference" "C62" (id 0) (at 130.81 121.285 90))
@@ -1997,7 +1999,7 @@
     (pin "2" (uuid db6f9e84-9986-4d91-88d4-a8f3e73f431a))
   )
 
-  (symbol (lib_id "power:GND") (at 135.255 116.84 90)
+  (symbol (lib_id "power:GND") (at 135.255 116.84 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bd32b6e5-0480-4478-a464-da2a01900f52)
     (property "Reference" "#PWR0129" (id 0) (at 141.605 116.84 0)
@@ -2013,7 +2015,7 @@
     (pin "1" (uuid 077b1d09-e8e9-4b69-a7c0-f75740afe4d3))
   )
 
-  (symbol (lib_id "power:GND") (at 135.255 96.52 90)
+  (symbol (lib_id "power:GND") (at 135.255 96.52 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid be339183-83b4-4726-9526-bed11e0ceedf)
     (property "Reference" "#PWR0130" (id 0) (at 141.605 96.52 0)
@@ -2029,7 +2031,7 @@
     (pin "1" (uuid e1edfe08-a039-4e5a-9660-fcc67cfd6b40))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 128.27 99.06 90)
+  (symbol (lib_id "Device:C_Small") (at 128.27 99.06 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c454df0d-1d7f-45de-95a7-7fd48ca0a2be)
     (property "Reference" "C60" (id 0) (at 130.81 100.965 90))
@@ -2044,7 +2046,7 @@
     (pin "2" (uuid 4ebfc700-db67-4184-a028-35c3ff9769d3))
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 215.9 111.76 270)
+  (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 215.9 111.76 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fa1b25e4-da6c-4f9c-94bd-f1303723c791)
     (property "Reference" "JP20" (id 0) (at 217.6272 110.5916 90)
