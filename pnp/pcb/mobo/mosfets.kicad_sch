@@ -6,9 +6,9 @@
 
   (title_block
     (title "LumenPnP Motherboard")
-    (date "2022-09-09")
-    (rev "004A")
-    (company "Opulo")
+    (date "2022-10-06")
+    (rev "04A")
+    (company "Opulo.io")
     (comment 1 "Reengineered by Magpie")
   )
 

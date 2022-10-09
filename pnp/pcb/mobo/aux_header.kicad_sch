@@ -6,9 +6,9 @@
 
   (title_block
     (title "LumenPnP Motherboard")
-    (date "2022-09-09")
-    (rev "004A")
-    (company "Opulo")
+    (date "2022-10-06")
+    (rev "04A")
+    (company "Opulo.io")
     (comment 1 "Reengineered by Magpie")
   )
 
@@ -285,6 +285,7 @@
   )
 
 
+
   (hierarchical_label "PWM1" (shape bidirectional) (at 138.43 97.155 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 04526863-64ea-4f4c-8e61-1b50d9b062b8)
@@ -369,7 +370,10 @@
     (property "Datasheet" "~" (id 3) (at 143.51 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C9136" (id 4) (at 143.51 97.155 0)
+    (property "LCSC" "" (id 4) (at 143.51 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "538-87834-1211" (id 5) (at 143.51 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3e305594-7567-46a8-9eb5-70b815d807bf))

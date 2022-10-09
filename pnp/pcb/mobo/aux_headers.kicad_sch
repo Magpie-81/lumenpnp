@@ -6,9 +6,9 @@
 
   (title_block
     (title "LumenPnP Motherboard")
-    (date "2022-09-09")
-    (rev "004A")
-    (company "Opulo")
+    (date "2022-10-06")
+    (rev "04A")
+    (company "Opulo.io")
     (comment 1 "Reengineered by Magpie")
   )
 
@@ -150,11 +150,6 @@
   (wire (pts (xy 132.08 96.52) (xy 139.7 96.52))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fb3c17e0-f41c-4e94-9e35-a65c75241398)
-  )
-
-  (text "AUX3 Removed to make room" (at 180.34 104.14 0)
-    (effects (font (size 1.27 1.27) bold) (justify left bottom))
-    (uuid 5db1047a-d79d-4a41-be0c-b8261d976ca1)
   )
 
   (hierarchical_label "2_PWM1" (shape bidirectional) (at 139.7 114.3 180)

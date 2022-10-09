@@ -2,4 +2,5 @@
   (lib (name "index")(type "KiCad")(uri "${KIPRJMOD}/../../../lib/kicad/index.pretty")(options "")(descr ""))
   (lib (name "mfg")(type "KiCad")(uri "/Users/stephen/manufacturing/lib/kicad/mfg.pretty")(options "")(descr ""))
   (lib (name "kikit")(type "KiCad")(uri "/Users/stephen/lumenpnp/lib/kicad/kikit.pretty")(options "")(descr ""))
+  (lib (name "Magpie_OpuloLibrary")(type "KiCad")(uri "${KIPRJMOD}/Lib/Magpie_OpuloLibrary.pretty")(options "")(descr ""))
 )
